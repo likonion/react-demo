@@ -1,0 +1,50 @@
+.Todolist {
+    padding: 20px;
+}
+.Todolist__input {
+    border-radius: 3px;
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 4px;
+    width: 100%;
+    height: 30px;
+}
+
+.List {
+    padding: 0 10px;
+}
+.List__item {
+    list-style-type: none;
+    padding: 5px;
+    margin: 10px 0;
+    border-radius: 5px;
+    background-color: antiquewhite;
+}
+.List__value {
+    background: none;
+    border: none;
+}
+.List__item--complete {
+    color: darkgray;
+    text-decoration: line-through;
+}
+.List__item--remove {
+    float: right;
+    font-family: Arial;
+    font-size: 10px;
+    line-height: 10px;
+    background: red;
+    color: white;
+    border-radius: 3px;
+    padding: 4px;
+}
+.number-box {
+    float: right;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    margin-right: 10px;
+    background-color: cadetblue;
+    padding: 5px 10px;
+    border-radius: 24px;
+}
