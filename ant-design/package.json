@@ -1,6 +1,5 @@
 {
-  "homepage": ".",
-  "name": "todolist",
+  "name": "ant-design",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
